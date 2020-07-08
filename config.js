@@ -46,11 +46,11 @@ var Abrum_Marker = L.marker([25.2048, 55.2708], {
 
 Abrum_Marker.bindPopup("Abrum says Hello from Dubai!");
 
-var Abrum_school_Marker = L.marker([25.2048, 55.2708], {
-    title: "Abrum wants to travel to Dubai"
+var Abrum_school_Marker = L.marker([35.2387527, -80.8920165], {
+    title: "Abrum goes to POB"
 });
 
-Abrum_school_Marker.bindPopup("Abrum says Hello from Dubai!");
+Abrum_school_Marker.bindPopup("Abrum says Hello from POB!");
 
 // Section 002 Markers
 
