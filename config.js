@@ -46,6 +46,12 @@ var Abrum_Marker = L.marker([25.2048, 55.2708], {
 
 Abrum_Marker.bindPopup("Abrum says Hello from Dubai!");
 
+var Abrum_school_Marker = L.marker([25.2048, 55.2708], {
+    title: "Abrum wants to travel to Dubai"
+});
+
+Abrum_school_Marker.bindPopup("Abrum says Hello from Dubai!");
+
 // Section 002 Markers
 
 
@@ -60,3 +66,4 @@ Jonathan_Marker.addTo(myMap);
 Semira_Marker.addTo(myMap);
 Camryn_Marker.addTo(myMap);
 Abrum_Marker.addTo(myMap);
+Abrum_school_Marker.addTo(myMap);
